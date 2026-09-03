@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+jspm_packages/
+.pnp/
+.pnp.js
+
+# Production and Transpilation Output
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime Data and Process IDs
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Test Coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Cache and Temporary Files
+.cache/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Directories
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

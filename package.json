@@ -1,0 +1,18 @@
+{
+  "name": "job-processor-service",
+  "version": "1.0.0",
+  "description": "Concurrent async job processor demonstrating advanced TypeScript and Node.js fundamentals",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2"
+  }
+}
